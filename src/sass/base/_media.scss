@@ -1,4 +1,75 @@
-@media (max-width: 1200px)
-    .header{
-        
+@media (max-width: 1200px){
+        .header{
+            display: flex;
+            justify-content: space-around;
+            &__official{
+                font-size: 14px;
+            }
+            &__phone{
+                margin-bottom: 10px;
+            }
+        }
+        .promo__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 90px;
+            &__icon{
+                font-size: 14px;
+            }
+        }
+        .advantages{
+            &__wrapper{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 65px;}
+            &__descr{
+                font-size: 14px;
+            }
     }
+}
+@media (max-width: 991px){
+    .promo{
+        background: url(../img/main_961.jpg) (center/cover) no-repeat;
+        height: auto;
+        }
+    .header{
+        margin: 0 auto;
+        max-width: 70%;
+        flex-wrap: wrap;
+        &__phone{
+            margin-top: 10px;
+        }
+    }
+    .button{
+        width: 200px;
+        height: 50px;
+    }
+    .advantages{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+
+        }
+        &__item{
+            width: 76%;
+            min-height: 50px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+        &__subtitle{
+            margin: 0;
+            padding-left: 20px;
+        }
+        &__descr{
+            margin: 0;
+            font-size: 16px;
+            line-height: 20px;
+            padding-left: 30px;
+
+        }
+    }
+}
