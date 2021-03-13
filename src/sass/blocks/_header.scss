@@ -23,8 +23,9 @@
         font-weight: 700;
         color: #ffffff;
         display: block;
+        transition: 0.3s all;
         &:hover{
-            color:#fff;
+            color: #dbd7d7;
             text-decoration: none;
         }
     }
